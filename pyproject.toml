@@ -1,0 +1,12 @@
+[project]
+name = "llm-labo"
+version = "0.1.0"
+description = "Experimental repository for LLM-related projects"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "llm7shi",
+]
+
+[tool.uv.sources]
+llm7shi = { git = "https://github.com/7shi/llm7shi.git" }

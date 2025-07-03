@@ -1,0 +1,112 @@
+{
+  "type": "object",
+  "properties": {
+    "q1": {
+      "type": "object",
+      "description": "本文中で言及されている猫の数は何匹か？",
+      "properties": {
+        "reasoning": {
+          "type": "string",
+          "description": "スコア算出について検討"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "q2": {
+      "type": "object",
+      "description": "著者はピザとハンバーガーのどちらを好むか？",
+      "properties": {
+        "reasoning": {
+          "type": "string",
+          "description": "スコア算出について検討"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "q3": {
+      "type": "object",
+      "description": "物語の中の天気はどのようなものか？",
+      "properties": {
+        "reasoning": {
+          "type": "string",
+          "description": "スコア算出について検討"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "q4": {
+      "type": "object",
+      "description": "示されている数式の数はいくつか？",
+      "properties": {
+        "reasoning": {
+          "type": "string",
+          "description": "スコア算出について検討"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "q5": {
+      "type": "object",
+      "description": "本文は英語で書かれているか？",
+      "properties": {
+        "reasoning": {
+          "type": "string",
+          "description": "スコア算出について検討"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "overall_reasoning": {
+      "type": "string",
+      "description": "評価全体に対する総合的な理由"
+    }
+  },
+  "required": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "overall_reasoning"
+  ]
+}

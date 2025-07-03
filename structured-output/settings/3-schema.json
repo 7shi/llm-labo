@@ -1,0 +1,101 @@
+{
+  "type": "object",
+  "properties": {
+    "本文中で言及されている猫の数は何匹か？": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "著者はピザとハンバーガーのどちらを好むか？": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "物語の中の天気はどのようなものか？": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "示されている数式の数はいくつか？": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "本文は英語で書かれているか？": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "overall_reasoning": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "本文中で言及されている猫の数は何匹か？",
+    "著者はピザとハンバーガーのどちらを好むか？",
+    "物語の中の天気はどのようなものか？",
+    "示されている数式の数はいくつか？",
+    "本文は英語で書かれているか？",
+    "overall_reasoning"
+  ]
+}

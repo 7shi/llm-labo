@@ -1,0 +1,101 @@
+{
+  "type": "object",
+  "properties": {
+    "q1": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "q2": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "q3": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "q4": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "q5": {
+      "type": "object",
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "reasoning",
+        "score"
+      ]
+    },
+    "overall_reasoning": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "overall_reasoning"
+  ]
+}
